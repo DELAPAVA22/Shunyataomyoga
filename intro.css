@@ -1,0 +1,26 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.texto-intro {
+  text-align: center;
+  padding: 0px 30px;
+}
+
+.redes {
+  cursor: pointer;
+}
+
+@media screen and (width < 1050px) {
+}
+@media screen and (width < 768px) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
+}

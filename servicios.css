@@ -1,0 +1,44 @@
+.franja {
+  display: flex;
+  height: 80px;
+  background-color: #de50c3;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: x-large;
+}
+
+.servicios-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.card {
+  background-color: #9e4fff;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (width < 1050px) {
+}
+@media screen and (width < 768px) {
+  .servicios-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.yoga {
+  height: 300px;
+  padding: 30px 30px;
+}
+
+.terapias {
+  display: flex;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+}
